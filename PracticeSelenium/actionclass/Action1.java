@@ -15,7 +15,7 @@ public class Action1 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://demo.guru99.com/test/drag_drop.html");
 		driver.manage().window().maximize();
-		Thread.sleep(1000);
+		Thread.sleep(200);
 
 		Actions C = new Actions(driver);// Select actions webdriver
 
